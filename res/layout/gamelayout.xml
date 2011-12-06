@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res/me.codeand.ahahpah_en" 
+	android:id="@+id/game_layout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+ 	<org.anddev.andengine.opengl.view.RenderSurfaceView 
+ 		android:id="@+id/game_rendersurfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:layout_centerInParent="true"      
+        android:layout_gravity="center_vertical"                     
+        />
+        
+    <!--  
+    <com.google.ads.AdView 
+    	android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        ads:adUnitId="a14daa4eb17dc4a"
+        ads:adSize="BANNER"
+        />
+        -->
+</FrameLayout>
+
+<!--  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/me.codeand.ahahpah"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+ 	<org.anddev.andengine.opengl.view.RenderSurfaceView 
+ 		android:id="@+id/game_rendersurfaceview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="0px"
+        android:layout_centerInParent="true"      
+        android:layout_gravity="center_vertical"                     
+        />
+	<RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent">
+        
+		<net.youmi.android.AdView  
+			android:id="@+id/ad" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			
+			
+			umadsdk:backgroundTransparent="255" 
+			umadsdk:backgroundColor="#000022"    
+			umadsdk:textColor="#0fff22"
+			/> 
+	</RelativeLayout>
+
+</RelativeLayout>
+-->

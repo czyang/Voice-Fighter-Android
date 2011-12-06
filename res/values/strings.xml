@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Fighter</string>
+    <string name="settings_title">Settings..</string>
+    <string name="preference_sensitivity">Sensitivity</string>
+    <string name="preference_sensitivity_summary">Adjust the sound sensitivity</string>
+    <string name="preference_slow_max">max</string>
+    <string name="preference_high_min">min</string>
+    <string name="preference_reset_sensitivity_title">Restore default settings.</string>
+    <string name="preference_reset_sensitivity_dialog">Do you want to restore the sound sensitivity to the default settings?</string>
+    <string name="preference_reset_sensitivity_dialog_title">Restore default settings.</string>
+    <string name="preference_reset_sensitivity_cancel">No</string>
+    <string name="preference_reset_sensitivity_ok">Yes</string>
+</resources>

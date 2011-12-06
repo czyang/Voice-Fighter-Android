@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name = "SliderPreference">
+	 	<attr name="minText" format = "string"/>
+		<attr name="maxText" format = "string"/>
+	</declare-styleable>
+</resources>
